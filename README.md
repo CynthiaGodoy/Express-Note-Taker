@@ -6,9 +6,11 @@ Modify starter code to create an application called Note Taker that can be used 
 
 [Express](https://www.npmjs.com/package/express)
 
-```Node.js
+Install Express in Terminal
+```
 npm i express
 ```
+[Guide on how to use middleware framework Express](https://expressjs.com/en/guide/using-middleware.html)
 
 ## Main Objective
 
@@ -20,11 +22,18 @@ Once Heroku has been installed, verify Heroku was installed on Terminal
 ```
 heroku --version
 ```
+Once Heroku is verified on Terminal, check your git is installed. 
+```
+git --version
+```
+
 [Heroku documentation on getting started with Node.js](https://devcenter.heroku.com/articles/getting-started-with-nodejs?singlepage=true)
-```To get started with Heroku CLI
+
+To direct your project to your heroku account
+```
 heroku login or heroku login i
 cd ~/ PROJECT LOCATION
-Heroku create
+heroku create
 ```
 
 [To deploy a project on Heroku](https://coding-boot-camp.github.io/full-stack/heroku/heroku-deployment-guide)
