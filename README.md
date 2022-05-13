@@ -13,19 +13,23 @@ npm i express
 ## Main Objective
 
 The application’s front end has already been created. The task is to build the back end, connect the two, and then deploy the entire application to **Heroku**.
-[To install the Heroky CLI](https://coding-boot-camp.github.io/full-stack/heroku/how-to-install-the-heroku-cli)
-```To verify Heroku was installed on Terminal
+
+[To install the Heroku CLI](https://coding-boot-camp.github.io/full-stack/heroku/how-to-install-the-heroku-cli)
+
+Once Heroku has been installed, verify Heroku was installed on Terminal
+```
 heroku --version
 ```
 [Heroku documentation on getting started with Node.js](https://devcenter.heroku.com/articles/getting-started-with-nodejs?singlepage=true)
 ```To get started with Heroku CLI
 heroku login or heroku login i
 cd ~/ PROJECT LOCATION
-Heorku create
+Heroku create
 ```
 
 [To deploy a project on Heroku](https://coding-boot-camp.github.io/full-stack/heroku/heroku-deployment-guide)
-```Create Variable
+Create a variable to locate Port
+```
 const port = process.env.PORT || 3001
 ```
 
@@ -40,7 +44,8 @@ git push heroku main
 ```
 
 [Heroku documentation on creating a Heroku remote](https://devcenter.heroku.com/articles/git#creating-a-heroku-remote)
-```To confirm there is a remote name heroku set on your app
+To confirm there is a remote name heroku set on your app
+```
 git remote -v
 ```
 
