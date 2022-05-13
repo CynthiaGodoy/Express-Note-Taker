@@ -52,6 +52,11 @@ git commit -m "Pushing to Heroku"
 git push heroku main
 ```
 
+To open the application from the terminal
+```
+heroku open
+```
+
 [Heroku documentation on creating a Heroku remote](https://devcenter.heroku.com/articles/git#creating-a-heroku-remote)
 To confirm there is a remote name heroku set on your app
 ```
