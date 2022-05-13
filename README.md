@@ -93,7 +93,7 @@ The following API routes should be created:
 
 ## Live URL
 
-https://
+[Heroku](https://rocky-shore-91173.herokuapp.com/)
 
 ## Screenshot
 ![](images/Screenshot.PNG)
@@ -104,3 +104,5 @@ https://
 
 - - -
 [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+
+Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
